@@ -1,0 +1,107 @@
+* {
+    font-family:Arial;
+}
+body {
+    margin:0px;
+    padding:0px;
+}
+.topo {
+    height:50px;
+    background-color:#353535;
+}
+.topointerior {
+    width:1000px;
+    margin:auto;
+    color:#FFFFFF;
+}
+.logomarca {
+    float:left;
+    font-size:30px;
+    line-height:50px;
+    margin-left:40px;
+}
+.menu {
+    float:right;
+}
+.menu ul,
+.menu li {
+    margin:0px;
+    padding:6px;
+    list-style:none;
+}
+.menu li {
+    float:left;
+    padding-left:7px;
+    padding-right:7px
+    line-height:50px;
+    font-size:20px;
+    cursor:pointer;
+}
+.menu>ul>li:hover {
+    background-color:#3480c1;
+    padding:7px;
+    font-weight:bold;
+}
+
+.banner {
+    height:300px;
+    background-color:#147aba;
+}
+.bannerint {
+    width:1000px;
+    margin:auto;
+}
+.banneresq {
+    float:left;
+}
+.bannerdir {
+    float:right;
+}
+.frase1 {
+    font-size:51px;
+    font-weight:bold;
+    color:#FFFFFF;
+    margin-top:100px;
+}
+.frase2 {
+    font-size:25px;
+    font-weight:bold;
+    color:#FFFFFF
+}
+.conteudoint {
+    width:1132;
+    margin:center;
+}
+.outrosprodutos {
+    height:90px;
+    font-size:30px;
+    margin-left:600px;
+    line-height:90px;
+    font-weight:bold;
+}
+.fotos {
+    margin-left:250px;
+    margin-right:10px;
+    letter-spacing:7px
+}
+.img1:hover {
+    cursor:pointer;
+}
+.img2:hover {
+    cursor:pointer;
+}
+.img3:hover {
+    cursor:pointer;
+}
+.rodape {
+    background-color:#147aba;
+    height:50px;
+    text-align:center;
+    line-height:50px;
+    color:#fff;
+    margin-top:40px;
+    font-weight:bold;
+}
+a {
+    text-decoration:none;
+}
